@@ -33,7 +33,7 @@ module.exports.signup = async (req, res, next) => {
       },
       config.TOKEN_KEY,
       {
-        expiresIn: `${config.TOKEN_EXPIRES_TIME_IN_Day}d`,
+        expiresIn: "1d",
       }
     )
     resposeHandler(
@@ -87,7 +87,7 @@ module.exports.login = async (req, res, next) => {
       },
       config.TOKEN_KEY,
       {
-        expiresIn: `${config.TOKEN_EXPIRES_TIME_IN_Day}d`,
+        expiresIn: "1d",
       }
     )
     // 7. send token in response
