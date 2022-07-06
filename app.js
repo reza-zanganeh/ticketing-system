@@ -33,7 +33,7 @@ app.use("/api/admin/request-supporter", requestSupporterRouter)
 app.use("*", notFoundResponse)
 app.use(errorHandler)
 
-const PORT = config.PORT || 3000
+const PORT = config.PORT || 8080
 
 const prismaClient = new PrismaClient()
 

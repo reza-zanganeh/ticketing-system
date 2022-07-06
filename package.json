@@ -7,7 +7,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "reza sani",
   "license": "ISC",
   "devDependencies": {
     "prisma": "^4.0.0"
